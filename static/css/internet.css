@@ -1,0 +1,152 @@
+.internetpage-banner-section .banner-background {
+  background: url(../images/windstream-internetpage-banner-image.webp);
+  background-size: cover;
+}
+
+.internetpage-banner-section .banner-headings h2 {
+  line-height: 30px;
+}
+
+.internetpage-banner-section .save-hundred {
+  flex-direction: column;
+  position: relative;
+  padding-top: 0;
+}
+
+.internetpage-banner-section .save-hundred-image {
+  text-align: end;
+  position: absolute;
+  right: -112px;
+  bottom: -54px;
+}
+
+.internetpage-banner-section .ctaa-buttons {
+  margin-top: 30px;
+}
+
+.internetpage-banner-section .banner-headings h2 {
+  padding-bottom: 13px;
+}
+
+.internetpage-banner-section .banner-headings h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.banner-small-paragraph {
+  padding-top: 20px;
+}
+
+.banner-small-paragraph p {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+.kinetic-fast-internet .viasat-internet-rest {
+  max-width: 1072px;
+  row-gap: 30px;
+}
+
+.kinetic-fast-internet .rest-card p {
+  max-width: 274px;
+}
+
+.kinetic-fast-internet .rest-card {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 31%;
+}
+
+.power-you-conneceted .rest-card {
+  width: 23%;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 0px;
+}
+
+.power-you-conneceted .viasat-internet-rest {
+  max-width: 1076px;
+}
+
+.power-you-conneceted .rest-card h3 {
+  padding: 10px 0px 12px;
+}
+
+.secure-heading span {
+  max-width: 900px;
+  line-height: 1.4;
+}
+@media screen and (max-width: 832px) {
+  .power-you-conneceted .rest-card {
+    width: 44%;
+  }
+  .kinetic-fast-internet .rest-card {
+    width: 44%;
+  }
+}
+@media screen and (max-width: 738px) {
+  .internetpage-banner-section .ctaa-buttons {
+    margin-top: 80px;
+  }
+
+  .internetpage-banner-section .save-hundred-image {
+    right: 0px;
+    bottom: -98px;
+  }
+
+  .internetpage-banner-section .banner-background {
+    background-image: url(../images/windstream-internetpage-banner-mobile.webp);
+    height: 1107px;
+    background-position: center;
+    padding-right: 25px;
+  }
+  .Kinetic-reward h5 {
+    margin-top: 30px;
+  }
+  .offer-price h4 span {
+    top: 40px;
+  }
+  .Kinetic-reward::before {
+    top: 34px;
+  }
+  .kinetic-fast-internet .rest-card {
+    width: 100%;
+  }
+  .power-you-conneceted .rest-card {
+    width: 100%;
+  }
+  .kinetic-secure-table-section {
+    padding: 35px 0px;
+  }
+  .all-table {
+    max-width: 77%;
+  }
+  .kinetic-secure-images.border-bottom-kineric {
+    column-gap: 20px;
+  }
+  .all-table span {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+  .border-bottom-kineric {
+    padding: 27px 24px 27px 5px;
+  }
+  .secure-heading span {
+    max-width: unset;
+    line-height: 1.4;
+    font-size: 13px;
+  }
+  .secure-heading-price span:nth-child(2) {
+    font-size: 50px;
+  }
+  .secure-heading-price span:nth-child(1) {
+    font-size: 22px;
+  }
+  .secure-heading-price {
+    padding: 27px 0 0px 5px;
+  }
+}

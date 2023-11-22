@@ -1,0 +1,1404 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.all-main h1,
+.all-main h2,
+.all-main h3,
+.all-main h4,
+.all-main h5,
+.all-main h6,
+.all-main p {
+  margin: 0;
+}
+
+.all-main a {
+  text-decoration: none;
+}
+
+.all-main img {
+  width: 100%;
+}
+
+.banner-section .banner-background {
+  background-image: url(../images/windstream-homepage-banner.webp);
+  height: 660px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.banner-headings {
+  max-width: 552px;
+}
+
+.banner-headings img {
+  width: unset;
+}
+
+.banner-headings h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.banner-headings h2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.banner-headings p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ctaa-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.ctaa-buttons a {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 8px;
+  transition: all 0.3s;
+  border-radius: 4px;
+  background: linear-gradient(92deg, #22a881 0%, #007c83 100%);
+  color: #fff;
+  display: flex;
+  column-gap: 6px;
+}
+
+.ctaa-buttons a:nth-child(2) {
+  background: linear-gradient(92deg, #e96629 0%, #ec8923 100%);
+  padding: 12px 13px;
+}
+
+.save-hundred-1 ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.save-hundred-1 p,
+.save-hundred-1 ul li {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.save-hundred-image {
+  position: relative;
+}
+
+.save-hundred-heading h4 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.save-hundred {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+/* plans-section */
+.all-plans-section .plans-sections {
+  background: linear-gradient(91deg, #22a881 1.11%, #6cbf5a 99.85%);
+  padding: 10px 50px 7px;
+}
+
+.reward-limited h3 {
+  color: #1f9371;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.reward-limited h3 span {
+  font-weight: 300;
+}
+
+.offer-price h4 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.offer-price h4 span {
+  font-size: 110px;
+}
+
+.Kinetic-reward h5 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.limited-time-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Kinetic-reward {
+  position: relative;
+}
+
+.Kinetic-reward::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -13px;
+  width: 6px;
+  height: 140px;
+  content: "";
+  background-color: #fff;
+}
+
+.fiber-internet-heading h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.fiber-internet-heading p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.fiber-internet-heading {
+  text-align: center;
+}
+
+.windstream-reward-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.windstream-plans-section {
+  padding: 38px 47px;
+}
+
+.all-windstream-plans-secion {
+  padding: 90px 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.windstream-card-plan1 {
+  width: 24%;
+}
+
+.package-price-data h3 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.package-price-data h3 sup {
+  font-weight: 500;
+}
+
+.package-price-data h5 {
+  color: #ef6724;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.master-card-heading h4 {
+  color: #ef6724;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 5px;
+  border: 2px solid #ef6724;
+  background: #fff;
+  padding: 13px 45px;
+  text-align: center;
+  max-width: 191px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.package-price-data p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.package-price-data ul {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.package-price-data ul li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+.package-price-data ul li::before {
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  left: -30px;
+  right: 0;
+  background-image: url(../images/windstream-two-paln-tixk-icon.webp);
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+
+/* .windstream-card-plan3 .package-price-data ul li::before {
+    background: url(../images/windstream-single-three-tixk-icon.webp);
+}
+
+.windstream-card-plan2 .package-price-data ul li::before {
+    background: url(../images/windstream-two-paln-tixk-icon.webp)
+}
+
+.windstream-card-plan4 .package-price-data ul li::before {
+    background: url(../images/windstream-one-paln-tixk-icon.webp)
+} */
+
+.lines-2 {
+  border-radius: 6px 6px 0px 0px;
+  background: linear-gradient(90deg, #e96629 0%, #ec8923 100%);
+  height: 12px;
+}
+
+.lines {
+  background: linear-gradient(95deg, #e96629 0%, #ec8923 99.13%);
+  height: 3px;
+  margin-top: 20px;
+}
+
+.pricing-plans h3 {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 67px;
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.pricing-plans h3 sup:nth-child(1),
+.pricing-plans h3 sub {
+  color: #ef6724;
+}
+
+.pricing-plans h3 sub {
+  font-size: 18px;
+  position: absolute;
+  bottom: -7px;
+}
+
+.package-mbs-data {
+  padding: 12px 15px 23px 15px;
+  border-radius: 0px 0px 6px 6px;
+  border: 1px solid #cbcbcb;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
+  height: 93%;
+}
+
+.windstream-card-plan2 .package-mbs-data {
+  height: 90%;
+}
+
+.windstream-card-plan3 .package-mbs-data {
+  height: 92.3%;
+}
+
+.windstream-card-plan4 .package-price-data ul {
+  padding-bottom: 28px;
+}
+
+.windstrea-dsl .package-price-data ul {
+  padding-bottom: 55px;
+}
+
+/* .pricing-plans h3 span {
+    font-size: 40px;
+} */
+
+.plans-pricing-paragraph p {
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.single-ctaa-buttons {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.single-ctaa-buttons a img {
+  width: unset;
+}
+
+.single-ctaa-buttons span {
+  color: #529267;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.single-ctaa-buttons span a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  background: linear-gradient(95deg, #e96629 0%, #ec8923 99.13%);
+  padding: 16px 7px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.after-top-paragraph p {
+  color: #000;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+.plans-pricing-paragraph {
+  padding: 5px 0px 25px;
+}
+
+.Popular-heading h4 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.package-price-data h4 {
+  color: #ef6724;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Popular-heading {
+  padding: 12px 15px;
+  border-radius: 6px 6px 0px 0px;
+  background: linear-gradient(90deg, #e96629 0%, #ec8923 100%);
+}
+
+/* .windstream-card-plan2 .package-price-data h5,
+.windstream-card-plan2 .pricing-plans h3 sup:nth-child(1),
+.pricing-plans h3 sub,
+.windstream-card-plan2 .single-ctaa-buttons span,
+.windstream-card-plan2 .package-price-data h4 {
+    color: #EF6724;
+}
+
+.windstream-card-plan2 .lines {
+    background-color: #EF6724;
+}
+
+.windstream-card-plan3 .package-price-data h5,
+.windstream-card-plan3 .pricing-plans h3 sup:nth-child(1),
+.pricing-plans h3 sub,
+.windstream-card-plan3 .single-ctaa-buttons span,
+.windstream-card-plan3 .new-pricing-stars h3 span,
+.windstream-card-plan3 .package-price-data h4 {
+    color: #007C83;
+}
+
+.windstream-card-plan3 .lines {
+    background-color: #007C83;
+}
+
+.windstream-card-plan4 .package-price-data h5,
+.windstream-card-plan4 .pricing-plans h3 sup:nth-child(1),
+.pricing-plans h3 sub,
+.windstream-card-plan4 .single-ctaa-buttons span,
+.windstream-card-plan4 .new-pricing-stars h3 span,
+.windstream-card-plan4 .package-price-data h4 {
+    color: #ED1863;
+}
+
+.windstream-card-plan4 .lines {
+    background-color: #ED1863;
+}
+
+.windstream-card-plan4 .single-ctaa-buttons span a {
+    background: linear-gradient(95deg, #D32739 -15.14%, #493994 130.25%);
+}
+
+.windstream-card-plan3 .single-ctaa-buttons span a {
+    background: linear-gradient(90deg, #5CBCAA 24.48%, #008DBA 100%);
+}
+
+.windstream-card-plan2 .single-ctaa-buttons span a {
+    background: linear-gradient(95deg, #E96629 0%, #EC8923 99.13%);
+}
+
+.windstream-card-plan4 .lines-2 {
+    background: linear-gradient(90deg, #D32739 -11.97%, #493994 101.28%);
+}
+
+.windstream-card-plan3 .lines-2 {
+    background: var(--blue-gradient, linear-gradient(90deg, #22A881 24.48%, #007C83 100%));
+} */
+
+.windstream-card-plan1.windstream-card-plan2 {
+  margin-top: -22px;
+}
+
+.windstream-card-plan3 .plans-pricing-paragraph p {
+  padding-top: 10px;
+}
+
+.new-pricing-stars h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-pricing-stars h3 span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* windstream kinetic */
+.all-viasat-what {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1132px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.viasat-1 {
+  width: 46%;
+}
+
+.viasat-1 h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #5cbcaa;
+}
+
+.viasat-1 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  margin-bottom: 15px;
+}
+
+.viasat-1 p,
+.viasat-1 ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.viasat-1 ul li::marker {
+  font-weight: 100;
+}
+
+.viasat-1 ul {
+  margin: 0;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.what-viasat {
+  padding: 79px 0px;
+}
+
+.what-viasat-order a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 10px 21px;
+  border-radius: 4px;
+  color: #fff;
+  background: linear-gradient(92deg, #5cbcaa 0%, #7dba00 100%);
+  display: inline;
+}
+
+.what-viasat-order a img {
+  width: unset;
+  transform: translate(-4px, 4px);
+}
+
+.windstream-background {
+  background: #f9f9f9;
+}
+
+.kinetic-secure .viasat-1 h3 {
+  color: #ed1863;
+}
+
+.kinetic-secure .what-viasat-order a {
+  background: linear-gradient(91deg, #d32739 -8.35%, #493994 139.29%);
+}
+
+.kinetic-voice .viasat-1 h3 {
+  color: #ef6724;
+}
+
+.kinetic-voice .what-viasat-order a {
+  background: linear-gradient(92deg, #e96629 0%, #ec8923 100%);
+}
+
+/*services*/
+
+.do-can-internet {
+  text-align: center;
+}
+
+.do-can-internet h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+}
+
+.do-can-internet p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.viasat-internet-rest {
+  display: flex;
+  justify-content: space-between;
+  max-width: 892px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  padding-top: 40px;
+}
+
+.can-do-internet-section {
+  padding: 58px 0px;
+}
+
+.rest-card {
+  text-align: center;
+  width: 30%;
+  border-radius: 6px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 38px 0px;
+}
+
+.rest-card img {
+  width: unset;
+}
+
+.rest-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0px 18px;
+}
+
+.rest-card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 228px;
+  margin: 0 auto;
+}
+
+.call-to-save-banner .plans-sections {
+  background: linear-gradient(91deg, #ef6724 0%, #ef9023 100%);
+  padding: 3px 52px 0px;
+}
+
+.call-to-save-banner .limited-time-offer {
+  justify-content: unset;
+}
+
+.call-to-save-banner .reward-limited.limited-time-offer-1 {
+  padding-left: 41px;
+  padding-right: 32px;
+}
+
+.call-to-save-banner .reward-limited h3 {
+  color: #e44a00;
+  font-weight: 400;
+}
+
+.call-to-save-banner .reward-limited h3 span {
+  font-weight: 700;
+}
+
+.call-to-save-banner .offer-price h4 {
+  line-height: 70px;
+}
+
+.call-to-save-banner .Kinetic-reward {
+  padding-left: 38px;
+}
+
+.call-to-save-banner .Kinetic-reward::before {
+  left: 17px;
+  top: 4px;
+}
+
+.call-to-save-banner .Kinetic-reward p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  max-width: 579px;
+}
+
+.call-to-save-banner .Kinetic-reward a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: 3px solid #fff;
+  width: 287px;
+  margin-left: auto;
+  height: 50px;
+  justify-content: center;
+  column-gap: 13px;
+}
+
+.call-to-save-banner .Kinetic-reward a img {
+  width: unset;
+}
+
+.availability-section {
+  padding: 54px 48px 64px 48px;
+}
+
+.availability-heading {
+  text-align: center;
+}
+
+.availability-heading h4 {
+  color: #22a881;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.availability-heading h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  padding: 0px 0px 18px;
+}
+
+.availability-heading p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.availability-map {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.availability-map img {
+  width: unset;
+}
+
+/* faqs */
+.faqs-section {
+  background: #f9f9f9;
+}
+
+.faqs-container {
+  width: 80%;
+  margin: 0px auto;
+  padding: 50px 0px;
+}
+
+.faqs-container h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 29px;
+}
+
+.faqs-container h2 span {
+  background: linear-gradient(91deg, #5cbcaa 60.73%, #7dba00 116.55%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button.accordion {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 0px 0px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+  position: relative;
+  background-color: transparent;
+  font-family: var(--font-family-semibold);
+}
+
+button.accordion:after {
+  background: url(../images/windstream-homepage-faqs-section-arrow.webp);
+  content: "";
+  position: absolute;
+  top: 7px;
+  bottom: 0;
+  right: 0;
+  width: 17.975px;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+
+.all-faqs {
+  padding-bottom: 9px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.all-faqs::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #9fafbc;
+  height: 1px;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.accordion.is-open {
+  border: none;
+}
+
+.accordion.is-open + .accordion-content {
+  margin-bottom: 20px;
+}
+
+.accordion-content p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* tabel-section */
+.kinetic-secure-table-section {
+  padding: 56px 48px;
+}
+
+.kinetic-secure-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all-table {
+  border-radius: 20px;
+  background: #f9f9f9;
+  padding: 27px 31px 52px;
+  margin-top: 40px;
+  max-width: 1131px;
+  margin: 0 auto;
+}
+
+.all-table span {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.secure-heading img {
+  width: unset;
+}
+
+.secure-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secure-heading span {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.border-bottom-kineric {
+  padding: 27px 96px 27px 5px;
+  border-bottom: 1px solid #000;
+}
+
+.kinetic-secure-images.border-bottom-kineric {
+  padding: 27px 20px 27px 0px;
+}
+
+.secure-heading-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 96px 0px 5px;
+  padding-top: 60px;
+}
+
+.secure-heading-price span:nth-child(1) {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.secure-heading-price span:nth-child(2) {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.secure-heading-price span {
+  position: relative;
+}
+
+.secure-heading-price span:nth-child(2) sub {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  bottom: -17px;
+  right: 24px;
+  font-style: italic;
+}
+
+.windstream-card-plan1 .pricing-plans h6 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 4px;
+  border: 1px solid #ef6724b3;
+  background: linear-gradient(95deg, #e96629 0%, #ec8923 99.13%);
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  margin-top: 7px;
+  margin-bottom: 22px;
+}
+
+.kinetic-secure-table-section .do-can-internet {
+  padding-bottom: 40px;
+}
+.mobile-rewared-card {
+  display: none;
+}
+@media screen and (max-width: 1366px) {
+  .reward-limited h3 br {
+    display: none;
+  }
+
+  .reward-limited h3 {
+    font-size: 57px;
+    line-height: 60px;
+    max-width: 270px;
+  }
+
+  .offer-price h4 {
+    font-size: 35px;
+  }
+
+  .Kinetic-reward h5 {
+    font-size: 35px;
+  }
+
+  .offer-price h4 span {
+    font-size: 75px;
+  }
+
+  /* .all-plans-section .plans-sections {
+        padding: 10px 35px 7px;
+    }
+
+    .lines {
+        margin-top: 30px;
+    }
+
+    .package-price-data p {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+
+    .package-price-data ul li {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .package-price-data h3 {
+        font-size: 50px;
+    }
+
+    .windstream-card-plan3 .lines {
+        margin-top: 14px;
+    }
+
+    .windstream-card-plan3 .plans-pricing-paragraph p {
+        padding-top: 0;
+    }
+
+    .pricing-plans h3 {
+        font-size: 45px;
+    }
+
+    .windstream-card-plan3 .new-pricing-stars h3 span br {
+        display: none;
+        font-size: 16px;
+    }
+
+    .pricing-plans.new-pricing-stars {
+        padding: 10px 0px;
+    }
+
+    .single-ctaa-buttons span a {
+        font-size: 15px;
+    } */
+  .package-price-data p {
+    font-size: 15px;
+  }
+
+  .package-price-data ul li {
+    font-size: 16px;
+  }
+
+  .master-card-heading h4 {
+    font-size: 14px;
+    padding: 10px 45px;
+  }
+
+  .all-viasat-what {
+    max-width: 1024px;
+  }
+
+  .viasat-1 h2 {
+    font-size: 27px;
+  }
+
+  .call-to-save-banner .Kinetic-reward a {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .package-price-data p {
+    font-size: 14px;
+  }
+
+  .single-ctaa-buttons span a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .package-price-data p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .master-card-heading h4 {
+    font-size: 13px;
+  }
+
+  .windstream-plans-section {
+    padding: 38px 20px;
+  }
+
+  .package-price-data ul li {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 8px;
+  }
+
+  .package-price-data ul li::before {
+    top: 0;
+  }
+
+  .pricing-plans h3 {
+    font-size: 42px;
+  }
+
+  .package-price-data h3 {
+    font-size: 42px;
+  }
+
+  .windstream-card-plan4 .package-price-data ul {
+    padding-bottom: 5px;
+  }
+
+  .windstrea-dsl .package-price-data ul {
+    padding-bottom: 26px;
+  }
+
+  .Kinetic-reward h5 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .Kinetic-reward::before {
+    left: -17px;
+  }
+}
+
+@media screen and (max-width: 1112px) {
+  .all-windstream-plans-secion {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+
+  .windstream-card-plan1 {
+    width: 31%;
+  }
+
+  .reward-limited h3 {
+    font-size: 48px;
+    max-width: 238px;
+  }
+
+  .offer-price h4 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .all-plans-section .plans-sections {
+    padding: 10px 18px 7px;
+  }
+
+  .all-viasat-what {
+    max-width: 900px;
+  }
+
+  .viasat-1 h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .viasat-1 p,
+  .viasat-1 ul li {
+    font-size: 13px;
+  }
+
+  .availability-heading h3 {
+    font-size: 25px;
+  }
+
+  .call-to-save-banner .Kinetic-reward p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .call-to-save-banner .Kinetic-reward a {
+    margin-top: 12px;
+  }
+
+  .call-to-save-banner .offer-price h4 {
+    line-height: 50px;
+  }
+
+  .do-can-internet h2 {
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  .after-top-paragraph p {
+    font-size: 9px;
+  }
+
+  .all-windstream-plans-secion {
+    padding: 65px 0px 40px;
+  }
+
+  .banner-section .banner-background {
+    height: 565px;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  .windstream-card-plan1 {
+    width: 48%;
+  }
+
+  .all-windstream-plans-secion {
+    row-gap: 45px;
+  }
+  .banner-section .banner-background {
+    background-image: url(../images/windstream-homepage-banner-mobile.webp);
+    height: 1329px;
+    display: block;
+    background-position: bottom;
+    padding-top: 38px;
+  }
+  .limited-time-offer {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .reward-limited {
+    width: 100%;
+  }
+  .mobile-rewared-card {
+    display: block;
+  }
+  .desktop-rewared-card {
+    display: none;
+  }
+  .reward-limited {
+    width: 49%;
+  }
+  .reward-limited h3 {
+    font-size: 68px;
+    max-width: unset;
+    line-height: 1.2;
+  }
+  .offer-price h4 span {
+    font-size: 100px;
+  }
+  .offer-price h4 {
+    font-size: 49px;
+    line-height: 1.1;
+  }
+  .Kinetic-reward h5 br {
+    display: none;
+  }
+  .Kinetic-reward h5 {
+    font-size: 43px;
+    line-height: 50px;
+  }
+  .Kinetic-reward {
+    width: 62%;
+  }
+  .Kinetic-reward::before {
+    height: 152px;
+  }
+  .all-plans-section .plans-sections {
+    padding: 24px 18px 18px;
+  }
+  .fiber-internet-heading h2 {
+    font-size: 30px;
+  }
+  .all-viasat-what {
+    flex-direction: column;
+    padding: 0 26px;
+    row-gap: 30px;
+  }
+  .viasat-1 {
+    width: 100%;
+  }
+  .viasat-1 h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .viasat-1 h3 {
+    font-size: 12px;
+  }
+  .kinetic-secure .all-viasat-what,
+  .kinetic-wifi .all-viasat-what {
+    flex-direction: column-reverse;
+  }
+  .rest-card {
+    width: 46%;
+  }
+  .viasat-internet-rest {
+    justify-content: center;
+    row-gap: 38px;
+    column-gap: 38px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+  .do-can-internet h2 {
+    font-size: 30px;
+    max-width: 546px;
+    margin: 0 auto;
+    line-height: 1.3;
+  }
+  .all-plans-section.call-to-save-banner {
+    display: none;
+  }
+  .accordion-content p {
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .banner-section .banner-background {
+    height: 876px;
+    padding-left: 25px;
+  }
+  .banner-headings h1 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .banner-headings h2 {
+    font-size: 20px;
+  }
+  .save-hundred img {
+    transform: scale(0.7);
+  }
+  .save-hundred {
+    padding-bottom: 20px;
+  }
+  .limited-time-offer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .reward-limited {
+    width: 100%;
+    text-align: center;
+  }
+  .reward-limited h3 {
+    font-size: 70px;
+    line-height: 1;
+  }
+  .offer-price {
+    width: 100%;
+  }
+  .offer-price h4 {
+    font-size: 40px;
+    position: relative;
+  }
+  .offer-price h4 span {
+    font-size: 110px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .Kinetic-reward h5 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-left: 24px;
+    line-height: 45px;
+  }
+  .Kinetic-reward {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .Kinetic-reward::before {
+    height: 180px;
+    left: 0;
+  }
+  .all-plans-section .plans-sections {
+    padding: 48px 18px 48px;
+  }
+  .windstream-card-plan1 {
+    width: 100%;
+  }
+  .windstream-card-plan1.windstream-card-plan2 {
+    order: 1;
+  }
+  .windstream-card-plan1.windstream-card-plan2 {
+    margin-top: -8px;
+  }
+  .all-windstream-plans-secion {
+    row-gap: 27px;
+  }
+  .what-viasat {
+    padding: 28px 0px;
+  }
+  .do-can-internet h2 {
+    font-size: 25px;
+    margin: 0 auto;
+    line-height: 1.3;
+    padding: 0 20px;
+  }
+  .rest-card {
+    width: 100%;
+    padding: 26px 0px;
+  }
+  .viasat-internet-rest {
+    row-gap: 26px;
+  }
+  .availability-map img {
+    width: 100%;
+  }
+  .availability-section {
+    padding: 32px 26px 33px 26px;
+  }
+  .do-can-internet p {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .add-home-phone-heading {
+    flex-direction: column;
+  }
+  .add-more-image {
+    text-align: center;
+  }
+  .add-more-image img {
+    width: unset;
+  }
+  .add-home-phone-heading {
+    padding: 29px 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  button.accordion:after {
+    right: -18px;
+  }
+  button.accordion {
+    max-width: 280px;
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 350px) {
+  .save-hundred {
+    flex-direction: column;
+  }
+  .banner-section .banner-background {
+    padding-left: 14px;
+  }
+  .banner-headings h1 {
+    font-size: 26px;
+    line-height: 37px;
+  }
+  .reward-limited h3 {
+    font-size: 54px;
+  }
+  .offer-price h4 span {
+    font-size: 84px;
+  }
+  .Kinetic-reward h5 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .Kinetic-reward::before {
+    height: 84px;
+    left: 0;
+  }
+}

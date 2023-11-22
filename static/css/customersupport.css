@@ -1,0 +1,291 @@
+.customer-support .banner-background {
+  background-image: url(../images/windstream-customerpage-banner-image.webp);
+}
+
+.customer-support .banner-headings {
+  max-width: 585px;
+}
+
+.customer-support .save-hundred {
+  padding-bottom: 40px;
+}
+
+.before-calling-kinetic-cards .all-viasat-what {
+  max-width: 100%;
+  padding-right: 172px;
+}
+
+.before-calling-heading {
+  position: relative;
+  left: 14%;
+  padding-bottom: 20px;
+}
+
+.before-calling-kinetic-cards .viasat-1:nth-child(1) {
+  width: 55%;
+}
+
+.before-calling-kinetic-cards .viasat-1:nth-child(2) {
+  width: 37%;
+  border-radius: 10px;
+  background: #f9f9f9;
+  padding: 27px 27px 6px;
+}
+
+.kinetic-voice .before-calling-heading h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  max-width: 548px;
+  text-align: center;
+}
+
+.kinetic-voice .before-calling-heading h3 span {
+  color: #5cbcaa;
+}
+
+.kinetic-voice .before-calling-heading h3 label {
+  color: #ef6724;
+}
+
+.kinetic-voice .have-accout h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.have-accout {
+  padding-bottom: 20px;
+}
+
+.have-accout p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.before-calling-kinetic-cards {
+  padding: 42px 0px;
+}
+
+.windstream-customer-support .viasat-internet-rest {
+  max-width: 1132px;
+  justify-content: center;
+  column-gap: 27px;
+}
+
+.windstream-customer-support .rest-card p {
+  max-width: 267px;
+  text-align: justify;
+}
+
+.windstream-customer-support .rest-card {
+  padding: 24px 0;
+  width: 27.5%;
+}
+.windstream-customer-support .rest-card h3 {
+  padding: 10px 0px 10px;
+}
+
+.bill-payment-option .do-can-internet h2 span {
+  color: #22a881;
+}
+
+.bill-payment-option .rest-card {
+  text-align: left;
+  padding: 24px 15px;
+  width: 27.7%;
+}
+
+.bill-payment-option .rest-card p {
+  max-width: unset;
+}
+
+.bill-payment-option .rest-card h3 {
+  color: #22a881;
+}
+
+.bill-payment-option .viasat-internet-rest {
+  max-width: 995px;
+  row-gap: 40px;
+}
+
+.add-home-phone-heading {
+  background-image: url(../images/customerpage-add-home-phone-image.webp);
+  padding: 29px 48px;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+}
+
+.add-home-card h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.add-home-card h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.add-home-card p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 884px;
+}
+
+.add-home-card span {
+  font-size: 90px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.add-home-card span sub {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Kinetic-reward::before {
+  top: -16px;
+}
+
+@media screen and (max-width: 1150px) {
+  .bill-payment-option .rest-card {
+    width: 100%;
+  }
+
+  .bill-payment-option .viasat-internet-rest {
+    row-gap: 25px;
+  }
+
+  .can-do-internet-section {
+    padding: 40px 0px;
+  }
+
+  .before-calling-kinetic-cards .all-viasat-what {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .what-viasat.kinetic-voice.before-calling-kinetic-cards .viasat-1 {
+    width: 100%;
+  }
+
+  .kinetic-voice .before-calling-heading h3 br {
+    display: none;
+  }
+
+  .before-calling-heading {
+    left: 0;
+  }
+
+  .what-viasat.kinetic-voice.before-calling-kinetic-cards
+    .viasat-1:nth-child(2) {
+    width: 87% !important;
+    margin: 0 auto;
+  }
+
+  .kinetic-voice .before-calling-heading h3 {
+    font-size: 27px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .before-calling-kinetic-cards .viasat-1:nth-child(1) img {
+    max-width: 90%;
+    margin: 0 auto;
+    display: none;
+  }
+
+  .before-calling-kinetic-cards .viasat-1:nth-child(1) {
+    text-align: center;
+  }
+
+  .before-calling-kinetic-cards {
+    padding: 33px 0px 0;
+  }
+  .windstream-customer-support .rest-card {
+    width: 45.5%;
+  }
+  .do-can-internet p {
+    padding: 0 82px;
+  }
+  .bill-payment-option .rest-card {
+    width: 40.5%;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .customer-support .banner-background {
+    background-image: url(../images/windstream-customerpage-banner-mobile.webp);
+  }
+  .bill-payment-option .rest-card,
+  .windstream-customer-support .rest-card {
+    width: 100%;
+  }
+
+  .bill-payment-option .viasat-internet-rest {
+    row-gap: 25px;
+  }
+
+  .can-do-internet-section {
+    padding: 40px 0px;
+  }
+
+  .before-calling-kinetic-cards .all-viasat-what {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .what-viasat.kinetic-voice.before-calling-kinetic-cards .viasat-1 {
+    width: 100%;
+  }
+
+  .kinetic-voice .before-calling-heading h3 br {
+    display: none;
+  }
+
+  .before-calling-heading {
+    left: 0;
+  }
+
+  .what-viasat.kinetic-voice.before-calling-kinetic-cards
+    .viasat-1:nth-child(2) {
+    width: 75% !important;
+    margin: 0 auto;
+  }
+
+  .kinetic-voice .before-calling-heading h3 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .before-calling-kinetic-cards .viasat-1:nth-child(1) img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .before-calling-kinetic-cards .viasat-1:nth-child(1) {
+    text-align: center;
+  }
+
+  .before-calling-kinetic-cards {
+    padding: 33px 0px 0;
+  }
+  .offer-price h4 span {
+    font-size: 91px;
+    text-align: right;
+    position: absolute;
+    top: 39px;
+    right: 0;
+  }
+}
