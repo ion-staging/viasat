@@ -1,6 +1,75 @@
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url(../fonts/source-sans-pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-LightIt';
+    src: url(../fonts/source-sans-pro/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url(../fonts/source-sans-pro/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src: url(../fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Fontfabric-UniNeueBook';
+    src: url(../fonts/uni-neue/Fontfabric-UniNeueBook.otf);
+}
+
+@font-face {
+    font-family: 'Fontfabric-UniNeueBold';
+    src: url(../fonts/uni-neue/Fontfabric-UniNeueBold.otf);
+}
+
+@font-face {
+    font-family: 'Fontfabric-UniNeueRegular';
+    src: url(../fonts/uni-neue/Fontfabric-UniNeueLight.otf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Semibold';
+    src: url(../fonts/uni-neue/Fontfabric-UniNeueRegular.otf);
+}
+
+:root {
+    /* Colors */
+    --color-primary: #202E39;
+    --color-secondary: #003F73;
+    --color-tertiary: #006EAD;
+    --color-background: #F6F6F6;
+    --color-accent: #5EA215;
+    --color-link: #677A89;
+    --color-light: #DEE4E8;
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-gray: #F3F3F3;
+
+    /* Font Families */
+    --font-family-primary: 'Fontfabric-UniNeueBook';
+    --font-family-secondary: 'Fontfabric-UniNeueBold';
+    --font-family-tertiary: 'Fontfabric-UniNeueRegular';
+    --font-family-light: 'SourceSansPro-Light';
+    --font-family-regular: 'SourceSansPro-Regular';
+    --font-family-bold: 'SourceSansPro-Bold';
+    --font-family-semibold: 'SourceSansPro-Semibold';
+    --font-family-light-italic: 'SourceSansPro-LightIt';
+}
+
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", sans-serif;
+
+    margin: 0;
 }
 
 .all-main h1,
@@ -10,1395 +79,974 @@ body {
 .all-main h5,
 .all-main h6,
 .all-main p {
-  margin: 0;
+    margin: 0;
 }
 
 .all-main a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .all-main img {
-  width: 100%;
+    width: 100%;
 }
 
 .banner-section .banner-background {
-  background-image: url(../images/windstream-homepage-banner.webp);
-  height: 660px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  padding-left: 50px;
+    background-image: url(../images/viasait-homepage-banner-background.webp);
+    height: 583px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
 
 .banner-headings {
-  max-width: 552px;
-}
-
-.banner-headings img {
-  width: unset;
+    max-width: 579px;
 }
 
 .banner-headings h1 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 45px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+    font-size: 50px;
+    color: var(--color-primary);
+    font-family: var(--font-family-tertiary);
+    font-weight: 400;
+    line-height: 57px;
+    padding-bottom: 20px;
+}
+
+.banner-headings h1 span {
+    font-family: var(--font-family-primary);
+    font-weight: 600;
 }
 
 .banner-headings h2 {
-  font-size: 24px;
-  font-weight: 400;
-  padding-bottom: 10px;
-  line-height: 25px;
+    font-size: 18px;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-family: var(--font-family-secondary);
+    padding-bottom: 10px;
+    line-height: 25px;
 }
 
 .banner-headings p {
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
+    font-family: var(--font-family-light);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .ctaa-buttons {
-  display: flex;
-  align-items: center;
-  column-gap: 18px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 40px;
 }
 
 .ctaa-buttons a {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 12px 8px;
-  transition: all 0.3s;
-  border-radius: 4px;
-  background: linear-gradient(92deg, #22a881 0%, #007c83 100%);
-  color: #fff;
-  display: flex;
-  column-gap: 6px;
+    color: var(--color-primary);
+    font-family: var(--font-family-semibold);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 21px;
+    border: 3px solid var(--color-primary);
+    transition: all 0.3s;
 }
 
-.ctaa-buttons a:nth-child(2) {
-  background: linear-gradient(92deg, #e96629 0%, #ec8923 100%);
-  padding: 12px 13px;
+.ctaa-buttons a:hover {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    transition: all 0.3s;
+    border: 3px solid transparent;
 }
 
-.save-hundred-1 ul {
-  margin: 0;
-  padding-left: 25px;
-}
-
-.save-hundred-1 p,
-.save-hundred-1 ul li {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-}
-
-.save-hundred-image {
-  position: relative;
-}
-
-.save-hundred-heading h4 {
-  color: #fff;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.save-hundred {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-}
-
-/* plans-section */
-.all-plans-section .plans-sections {
-  background: linear-gradient(91deg, #22a881 1.11%, #6cbf5a 99.85%);
-  padding: 10px 50px 7px;
-}
-
-.reward-limited h3 {
-  color: #1f9371;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 80px;
-}
-
-.reward-limited h3 span {
-  font-weight: 300;
-}
-
-.offer-price h4 {
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 60px;
-}
-
-.offer-price h4 span {
-  font-size: 110px;
-}
-
-.Kinetic-reward h5 {
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 36px;
-}
-
-.limited-time-offer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.Kinetic-reward {
-  position: relative;
-}
-
-.Kinetic-reward::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -13px;
-  width: 6px;
-  height: 140px;
-  content: "";
-  background-color: #fff;
-}
-
-.fiber-internet-heading h2 {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 39px;
-}
+.banner-headings h2 span img {
+    width: unset;
+    transform: translate(0px, 4px);
+    padding-right: 4px;
+}
 
-.fiber-internet-heading p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-}
-
-.fiber-internet-heading {
-  text-align: center;
-}
-
-.windstream-reward-images {
-  display: flex;
-  justify-content: space-between;
-}
-
-.windstream-plans-section {
-  padding: 38px 47px;
-}
-
-.all-windstream-plans-secion {
-  padding: 90px 0px 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.windstream-card-plan1 {
-  width: 24%;
-}
-
-.package-price-data h3 {
-  font-size: 50px;
-  font-weight: 400;
-}
-
-.package-price-data h3 sup {
-  font-weight: 500;
-}
-
-.package-price-data h5 {
-  color: #ef6724;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.master-card-heading h4 {
-  color: #ef6724;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  border-radius: 5px;
-  border: 2px solid #ef6724;
-  background: #fff;
-  padding: 13px 45px;
-  text-align: center;
-  max-width: 191px;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-.package-price-data p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 24px;
-}
+/* topbar */
+.top-bar {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 0px;
+}
 
-.package-price-data ul {
-  margin: 0;
-  padding-top: 15px;
+.top-bar span {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
 }
 
-.package-price-data ul li {
-  list-style: none;
-  position: relative;
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 26px;
-  padding-bottom: 10px;
+.top-bar span a {
+    color: var(--color-white);
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: var(--color-link);
+    padding: 10px 21px;
 }
-
-.package-price-data ul li::before {
-  position: absolute;
-  top: 5px;
-  bottom: 0;
-  left: -30px;
-  right: 0;
-  background-image: url(../images/windstream-two-paln-tixk-icon.webp);
-  width: 20px;
-  height: 20px;
-  content: "";
-}
-
-/* .windstream-card-plan3 .package-price-data ul li::before {
-    background: url(../images/windstream-single-three-tixk-icon.webp);
+
+/* internet-plans */
+.internet-plans-heading {
+    text-align: center;
 }
 
-.windstream-card-plan2 .package-price-data ul li::before {
-    background: url(../images/windstream-two-paln-tixk-icon.webp)
+.internet-plans-heading p {
+    color: var(--color-secondary);
+    font-family: var(--font-family-semibold);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
-
-.windstream-card-plan4 .package-price-data ul li::before {
-    background: url(../images/windstream-one-paln-tixk-icon.webp)
-} */
 
-.lines-2 {
-  border-radius: 6px 6px 0px 0px;
-  background: linear-gradient(90deg, #e96629 0%, #ec8923 100%);
-  height: 12px;
+.internet-plans-heading h2 {
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
 }
 
-.lines {
-  background: linear-gradient(95deg, #e96629 0%, #ec8923 99.13%);
-  height: 3px;
-  margin-top: 20px;
+.all-streaming .streaming-1 img,
+.viasat-data img {
+    width: unset;
+}
+
+.all-streaming .streaming-1,
+.viasat-data {
+    display: flex;
+    align-items: center;
 }
-
-.pricing-plans h3 {
-  font-size: 60px;
-  font-weight: 300;
-  line-height: 67px;
-  position: relative;
-  padding-top: 5px;
-  text-align: center;
+
+.streaming-2 span {
+    max-width: 179px;
+}
+
+.all-internet-plans {
+    max-width: 930px;
+    margin: 0 auto;
+    display: flex;
+    padding: 35px 0px;
+    column-gap: 30px;
 }
 
-.pricing-plans h3 sup:nth-child(1),
-.pricing-plans h3 sub {
-  color: #ef6724;
+.plans-card-1 p {
+    color: var(--color-tertiary);
+    font-family: var(--font-family-regular);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
 }
-
-.pricing-plans h3 sub {
-  font-size: 18px;
-  position: absolute;
-  bottom: -7px;
+
+.plans-card-1 h3 {
+    color: var(--color-black);
+    font-family: var(--font-family-tertiary);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 47px;
+}
+
+.plans-card-1 h4 {
+    color: var(--color-black);
+    font-family: var(--font-family-light-italic);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 20px;
 }
 
-.package-mbs-data {
-  padding: 12px 15px 23px 15px;
-  border-radius: 0px 0px 6px 6px;
-  border: 1px solid #cbcbcb;
-  background: #fff;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
-  height: 93%;
+.plans-card-1 {
+    width: 31.2%;
+    position: relative;
+    background: var(--color-white);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px 0px 0px;
+    display: inline-grid;
 }
 
-.windstream-card-plan2 .package-mbs-data {
-  height: 90%;
+.business-card-1 {
+    position: relative;
 }
 
-.windstream-card-plan3 .package-mbs-data {
-  height: 92.3%;
+.plans-card-1::after,
+.phone-cards::after,
+.business-card-1::after {
+    background-image: url(../images/viasat-homepage-internet-plans-line-image.webp);
+    background-repeat: no-repeat;
+    height: 9.875px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    background-size: cover;
 }
 
-.windstream-card-plan4 .package-price-data ul {
-  padding-bottom: 28px;
+.phone-card-image img {
+    width: unset;
 }
 
-.windstrea-dsl .package-price-data ul {
-  padding-bottom: 55px;
+.phone-card h3 {
+    color: var(--color-black);
+    font-family: var(--font-family-tertiary);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 530px;
 }
 
-/* .pricing-plans h3 span {
-    font-size: 40px;
-} */
-
-.plans-pricing-paragraph p {
-  text-align: justify;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 16px;
+.phone-card h3 label {
+    color: var(--color-secondary);
+    font-family: var(--font-family-regular);
 }
 
-.single-ctaa-buttons {
-  width: 95%;
-  margin: 0 auto;
+.phone-cards {
+    display: flex;
+    max-width: 898px;
+    margin: 0 auto;
+    column-gap: 28px;
+    background: var(--color-white);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.15);
+    padding: 26px 16px 10px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 37px;
 }
 
-.single-ctaa-buttons a img {
-  width: unset;
+.phone-card h4 {
+    color: var(--color-secondary);
+    font-family: var(--font-family-regular);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: end;
 }
 
-.single-ctaa-buttons span {
-  color: #529267;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 16px;
+.phone-card span {
+    font-size: 50px;
+    font-family: var(--font-family-tertiary);
 }
 
-.single-ctaa-buttons span a {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 4px;
-  background: linear-gradient(95deg, #e96629 0%, #ec8923 99.13%);
-  padding: 16px 7px;
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-  justify-content: center;
+.phone-card span del {
+    font-size: 30px;
 }
 
-.after-top-paragraph p {
-  color: #000;
-  text-align: center;
-  font-size: 10px;
-  font-weight: 300;
-  line-height: 14px;
+.phone-card span sup {
+    color: #1D5700;
+    font-family: var(--font-family-primary);
+    font-weight: 500;
 }
 
-.plans-pricing-paragraph {
-  padding: 5px 0px 25px;
+.viasat-data {
+    column-gap: 30px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 2px solid var(--color-tertiary);
+    padding: 7px 15px;
+    margin: 12px 0px;
 }
 
-.Popular-heading h4 {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
+.phone-card span sub {
+    color: var(--color-tertiary);
+    font-family: var(--font-family-primary);
+    font-weight: 500;
 }
 
-.package-price-data h4 {
-  color: #ef6724;
-  font-size: 16px;
-  font-weight: 500;
+.viasat-data span {
+    text-align: end;
+    color: var(--color-accent);
+    font-size: 16px;
+    font-family: var(--font-family-primary);
+    font-weight: 600;
 }
 
-.Popular-heading {
-  padding: 12px 15px;
-  border-radius: 6px 6px 0px 0px;
-  background: linear-gradient(90deg, #e96629 0%, #ec8923 100%);
+.viasat-data span label {
+    font-size: 12px;
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+    font-weight: 400;
 }
 
-/* .windstream-card-plan2 .package-price-data h5,
-.windstream-card-plan2 .pricing-plans h3 sup:nth-child(1),
-.pricing-plans h3 sub,
-.windstream-card-plan2 .single-ctaa-buttons span,
-.windstream-card-plan2 .package-price-data h4 {
-    color: #EF6724;
+.streaming-1 span {
+    color: var(--color-black);
+    text-align: right;
+    font-family: var(--font-family-light);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
 }
 
-.windstream-card-plan2 .lines {
-    background-color: #EF6724;
+.all-streaming .streaming-1 {
+    justify-content: space-between;
+    margin-bottom: 11px;
 }
 
-.windstream-card-plan3 .package-price-data h5,
-.windstream-card-plan3 .pricing-plans h3 sup:nth-child(1),
-.pricing-plans h3 sub,
-.windstream-card-plan3 .single-ctaa-buttons span,
-.windstream-card-plan3 .new-pricing-stars h3 span,
-.windstream-card-plan3 .package-price-data h4 {
-    color: #007C83;
+.bottom-paragraph {
+    padding: 8px 12px;
+    background: var(--color-background);
 }
 
-.windstream-card-plan3 .lines {
-    background-color: #007C83;
+.bottom-paragraph p {
+    text-align: center;
+    color: var(--color-black);
+    font-family: var(--font-family-tertiary);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
 }
 
-.windstream-card-plan4 .package-price-data h5,
-.windstream-card-plan4 .pricing-plans h3 sup:nth-child(1),
-.pricing-plans h3 sub,
-.windstream-card-plan4 .single-ctaa-buttons span,
-.windstream-card-plan4 .new-pricing-stars h3 span,
-.windstream-card-plan4 .package-price-data h4 {
-    color: #ED1863;
+.moths-different {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px 0;
+    margin-bottom: 0px;
 }
 
-.windstream-card-plan4 .lines {
-    background-color: #ED1863;
+.moths-different span {
+    color: var(--color-black);
+    font-family: var(--font-family-tertiary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
 }
 
-.windstream-card-plan4 .single-ctaa-buttons span a {
-    background: linear-gradient(95deg, #D32739 -15.14%, #493994 130.25%);
+.three-moths p {
+    font-size: 13px;
 }
 
-.windstream-card-plan3 .single-ctaa-buttons span a {
-    background: linear-gradient(90deg, #5CBCAA 24.48%, #008DBA 100%);
+.moths-different span sub {
+    color: var(--color-tertiary);
+    font-family: var(--font-family-primary);
+    font-weight: 500;
 }
 
-.windstream-card-plan2 .single-ctaa-buttons span a {
-    background: linear-gradient(95deg, #E96629 0%, #EC8923 99.13%);
+.moths-different span sup {
+    color: #1D5700;
+    font-family: var(--font-family-primary);
+    font-weight: 500;
 }
 
-.windstream-card-plan4 .lines-2 {
-    background: linear-gradient(90deg, #D32739 -11.97%, #493994 101.28%);
+.moths-different-thing {
+    padding: 0px 12px;
+    margin-top: 13px;
 }
-
-.windstream-card-plan3 .lines-2 {
-    background: var(--blue-gradient, linear-gradient(90deg, #22A881 24.48%, #007C83 100%));
-} */
 
-.windstream-card-plan1.windstream-card-plan2 {
-  margin-top: -22px;
+.moths-different label,
+.moths-different-thing label {
+    color: var(--color-black);
+    font-family: var(--font-family-light);
+    font-size: 24px;
+    font-style: normal;
+    line-height: 20px;
 }
 
-.windstream-card-plan3 .plans-pricing-paragraph p {
-  padding-top: 10px;
+.viasat-data-internet {
+    padding: 0 17px;
 }
 
-.new-pricing-stars h3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.interbnwt-plans-small-paragraph p {
+    max-width: 1132px;
+    margin: 0 auto;
+    color: var(--color-black);
+    text-align: center;
+    font-family: var(--font-family-light);
+    font-size: 12px;
+    font-weight: 300;
 }
 
-.new-pricing-stars h3 span {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.4;
-  text-align: left;
+.internet-palns-section {
+    padding: 39px 0px;
+    background: #F3F3F3;
 }
 
-/* windstream kinetic */
+/* what-viasat */
 .all-viasat-what {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1132px;
-  margin: 0 auto;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1099px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .viasat-1 {
-  width: 46%;
+    width: 45%;
 }
 
 .viasat-1 h3 {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  color: #5cbcaa;
+    color: var(--color-primary);
+    font-family: var(--font-family-semibold);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .viasat-1 h2 {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 37px;
-  margin-bottom: 15px;
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 15px;
 }
 
 .viasat-1 p,
 .viasat-1 ul li {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
+    color: var(--color-black);
+    font-family: var(--font-family-light);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
 }
 
 .viasat-1 ul li::marker {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .viasat-1 ul {
-  margin: 0;
-  padding-left: 20px;
-  margin-bottom: 30px;
+    margin: 0;
+    padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 .what-viasat {
-  padding: 79px 0px;
+    padding: 79px 0px;
 }
 
 .what-viasat-order a {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 18px;
-  padding: 10px 21px;
-  border-radius: 4px;
-  color: #fff;
-  background: linear-gradient(92deg, #5cbcaa 0%, #7dba00 100%);
-  display: inline;
+    color: var(--color-white);
+    background: var(--color-primary);
+    font-family: var(--font-family-semibold);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 10px 21px;
 }
 
-.what-viasat-order a img {
-  width: unset;
-  transform: translate(-4px, 4px);
+.viasat-background {
+    background: #F3F3F3;
 }
 
-.windstream-background {
-  background: #f9f9f9;
+.rulal-area {
+    padding: 0;
 }
 
-.kinetic-secure .viasat-1 h3 {
-  color: #ed1863;
+.rulal-area .all-viasat-what {
+    max-width: unset;
+    align-items: unset;
 }
 
-.kinetic-secure .what-viasat-order a {
-  background: linear-gradient(91deg, #d32739 -8.35%, #493994 139.29%);
+.rulal-area .rulal-area-card {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4px;
 }
 
-.kinetic-voice .viasat-1 h3 {
-  color: #ef6724;
+.rulal-area .viasat-1 {
+    width: 50%;
 }
 
-.kinetic-voice .what-viasat-order a {
-  background: linear-gradient(92deg, #e96629 0%, #ec8923 100%);
+.rulal-area .viasat-1 p {
+    max-width: 521px;
+    color: var(--color-white);
+    line-height: 22px;
+    opacity: 0.5;
 }
 
-/*services*/
-
-.do-can-internet {
-  text-align: center;
+.rulal-area-card h4 {
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
 }
 
-.do-can-internet h2 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 37px;
+.rulal-area-card h3,
+.rulal-area-card h2 {
+    color: var(--color-white);
 }
 
-.do-can-internet p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
+.rulal-area-card h3 {
+    letter-spacing: 2px;
 }
 
-.viasat-internet-rest {
-  display: flex;
-  justify-content: space-between;
-  max-width: 892px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  row-gap: 50px;
-  padding-top: 40px;
+.rulal-area-card .what-viasat-order {
+    margin-top: 30px;
 }
 
-.can-do-internet-section {
-  padding: 58px 0px;
+.rulal-area-card .what-viasat-order a {
+    background-color: var(--color-link);
 }
 
-.rest-card {
-  text-align: center;
-  width: 30%;
-  border-radius: 6px;
-  background: #f9f9f9;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 38px 0px;
+.satellite-internet,
+.rural-area-internet {
+    max-width: 521px;
+    margin: 0 auto;
 }
 
-.rest-card img {
-  width: unset;
-}
-
-.rest-card h3 {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 10px 0px 18px;
-}
-
-.rest-card p {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  max-width: 228px;
-  margin: 0 auto;
-}
-
-.call-to-save-banner .plans-sections {
-  background: linear-gradient(91deg, #ef6724 0%, #ef9023 100%);
-  padding: 3px 52px 0px;
-}
-
-.call-to-save-banner .limited-time-offer {
-  justify-content: unset;
-}
-
-.call-to-save-banner .reward-limited.limited-time-offer-1 {
-  padding-left: 41px;
-  padding-right: 32px;
-}
-
-.call-to-save-banner .reward-limited h3 {
-  color: #e44a00;
-  font-weight: 400;
-}
-
-.call-to-save-banner .reward-limited h3 span {
-  font-weight: 700;
-}
-
-.call-to-save-banner .offer-price h4 {
-  line-height: 70px;
-}
-
-.call-to-save-banner .Kinetic-reward {
-  padding-left: 38px;
-}
-
-.call-to-save-banner .Kinetic-reward::before {
-  left: 17px;
-  top: 4px;
-}
-
-.call-to-save-banner .Kinetic-reward p {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 27px;
-  max-width: 579px;
-}
-
-.call-to-save-banner .Kinetic-reward a {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 3px;
-  border: 3px solid #fff;
-  width: 287px;
-  margin-left: auto;
-  height: 50px;
-  justify-content: center;
-  column-gap: 13px;
-}
-
-.call-to-save-banner .Kinetic-reward a img {
-  width: unset;
-}
-
-.availability-section {
-  padding: 54px 48px 64px 48px;
-}
-
-.availability-heading {
-  text-align: center;
-}
-
-.availability-heading h4 {
-  color: #22a881;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.availability-heading h3 {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 37px;
-  padding: 0px 0px 18px;
-}
-
-.availability-heading p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-}
-
-.availability-map {
-  text-align: center;
-  padding-top: 50px;
-}
-
-.availability-map img {
-  width: unset;
+.availability .what-viasat-order {
+    margin-top: 30px;
 }
 
 /* faqs */
-.faqs-section {
-  background: #f9f9f9;
-}
-
 .faqs-container {
-  width: 80%;
-  margin: 0px auto;
-  padding: 50px 0px;
+    width: 80%;
+    margin: 50px auto;
 }
 
 .faqs-container h2 {
-  font-size: 30px;
-  font-weight: 700;
-  padding-bottom: 29px;
-}
-
-.faqs-container h2 span {
-  background: linear-gradient(91deg, #5cbcaa 60.73%, #7dba00 116.55%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    padding-bottom: 29px;
 }
 
 button.accordion {
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  padding: 0px 0px 18px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s linear;
-  position: relative;
-  background-color: transparent;
-  font-family: var(--font-family-semibold);
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid #9FAFBC; */
+    outline: none;
+    text-align: left;
+    padding: 0px 0px 18px;
+    font-size: 16px;
+    color: var(--color-black);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    position: relative;
+    background-color: transparent;
+    font-family: var(--font-family-semibold);
 }
 
 button.accordion:after {
-  background: url(../images/windstream-homepage-faqs-section-arrow.webp);
-  content: "";
-  position: absolute;
-  top: 7px;
-  bottom: 0;
-  right: 0;
-  width: 17.975px;
-  height: 10px;
-  background-repeat: no-repeat;
+    background: url(../images/viasait-homepage-faqs-section-arrow.webp);
+    content: "";
+    position: absolute;
+    top: 7px;
+    bottom: 0;
+    right: 0;
+    width: 17.975px;
+    height: 10px;
+    background-repeat: no-repeat;
 }
 
 .all-faqs {
-  padding-bottom: 9px;
-  padding-top: 20px;
-  position: relative;
+    padding-bottom: 9px;
+    padding-top: 20px;
+    position: relative;
 }
 
 .all-faqs::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background: #9fafbc;
-  height: 1px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #9FAFBC;
+    height: 1px;
 }
 
 .accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-in-out;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
 }
 
 .accordion.is-open {
-  border: none;
+    border: none;
 }
 
-.accordion.is-open + .accordion-content {
-  margin-bottom: 20px;
+.accordion.is-open+.accordion-content {
+    margin-bottom: 20px;
 }
 
 .accordion-content p {
-  font-size: 14px;
-  font-weight: 300;
+    color: var(--color-black);
+    font-family: var(--font-family-light);
+    font-size: 14px;
+    font-weight: 300;
 }
 
-/* tabel-section */
-.kinetic-secure-table-section {
-  padding: 56px 48px;
+.banner-ctaa-icons,
+.top-bar a {
+    display: flex;
+    column-gap: 10px;
+    transition: all 0.5s;
 }
 
-.kinetic-secure-images {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.what-viasat-order a {
+    display: inline;
 }
 
-.all-table {
-  border-radius: 20px;
-  background: #f9f9f9;
-  padding: 27px 31px 52px;
-  margin-top: 40px;
-  max-width: 1131px;
-  margin: 0 auto;
+.top-bar a img,
+.what-viasat-order a img {
+    width: unset;
 }
 
-.all-table span {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 20px;
+.what-viasat-order a img {
+    transform: translate(-7px, 3px);
 }
 
-.secure-heading img {
-  width: unset;
-}
-
-.secure-heading {
-  display: flex;
-  justify-content: space-between;
-}
-
-.secure-heading span {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 20px;
-}
-
-.border-bottom-kineric {
-  padding: 27px 96px 27px 5px;
-  border-bottom: 1px solid #000;
-}
-
-.kinetic-secure-images.border-bottom-kineric {
-  padding: 27px 20px 27px 0px;
-}
-
-.secure-heading-price {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 27px 96px 0px 5px;
-  padding-top: 60px;
-}
-
-.secure-heading-price span:nth-child(1) {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
-.secure-heading-price span:nth-child(2) {
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
-.secure-heading-price span {
-  position: relative;
-}
-
-.secure-heading-price span:nth-child(2) sub {
-  font-size: 14px;
-  font-weight: 500;
-  position: absolute;
-  bottom: -17px;
-  right: 24px;
-  font-style: italic;
-}
-
-.windstream-card-plan1 .pricing-plans h6 {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16px;
-  border-radius: 4px;
-  border: 1px solid #ef6724b3;
-  background: linear-gradient(95deg, #e96629 0%, #ec8923 99.13%);
-  display: flex;
-  padding: 10px 16px;
-  justify-content: center;
-  margin-top: 7px;
-  margin-bottom: 22px;
-}
-
-.kinetic-secure-table-section .do-can-internet {
-  padding-bottom: 40px;
-}
-.mobile-rewared-card {
-  display: none;
-}
-@media screen and (max-width: 1366px) {
-  .reward-limited h3 br {
+.banner-ctaa-icons .call-white {
     display: none;
-  }
+    transition: all 0.5s;
+}
 
-  .reward-limited h3 {
-    font-size: 57px;
-    line-height: 60px;
-    max-width: 270px;
-  }
+.banner-ctaa-icons:hover .call-white {
+    display: block;
+    transition: all 0.5s;
+}
 
-  .offer-price h4 {
-    font-size: 35px;
-  }
+.banner-ctaa-icons:hover .call-blue {
+    display: none;
+    transition: all 0.5s;
+}
 
-  .Kinetic-reward h5 {
-    font-size: 35px;
-  }
+.banner-ctaa-icons img {
+    width: unset;
+}
 
-  .offer-price h4 span {
-    font-size: 75px;
-  }
+.internet-plans-heading,
+.top-bar {
+    padding: 20px 20px;
+}
 
-  /* .all-plans-section .plans-sections {
-        padding: 10px 35px 7px;
+.all-internet-plans .ctaa-buttons {
+    margin-top: 4px;
+}
+
+.all-internet-plans .ctaa-buttons a {
+    width: 100%;
+    justify-content: center;
+    border: none;
+    background-color: var(--color-link);
+    color: var(--color-white);
+    margin-bottom: -1px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .phone-cards {
+        max-width: 837px;
     }
 
-    .lines {
-        margin-top: 30px;
+    .phone-card h3 {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 1077px) {
+    .top-bar span {
+        column-gap: 26px;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1141px) {
+    .all-viasat-what {
+        max-width: 865px;
     }
 
-    .package-price-data p {
+    .viasat-1 p,
+    .viasat-1 ul li {
         font-size: 13px;
-        font-weight: 300;
-        line-height: 18px;
     }
 
-    .package-price-data ul li {
+    .viasat-1 h2 {
+        font-size: 23px;
+        line-height: 1.3;
+    }
+
+    .rulal-area-card h2 br {
+        display: none;
+    }
+
+    .home-install .rulal-area-card {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .interbnwt-plans-small-paragraph p {
+        max-width: 1049px;
+        padding: 0 20px;
+    }
+
+    .all-internet-plans {
+        max-width: 863px;
+    }
+
+    .plans-card-1 h3 {
+        font-size: 40px;
+    }
+
+    .viasat-data span {
+        font-size: 14px;
+    }
+
+    .viasat-data span label {
+        font-size: 10px;
+    }
+
+    .moths-different span {
+        font-size: 26px;
+    }
+
+    .internet-plans-heading h2 {
+        font-size: 28px;
+    }
+
+    .rulal-area-card h4 {
+        font-size: 14px;
+    }
+
+    .viasat-1 h2 {
+        margin-bottom: 8px;
+    }
+
+    .rulal-area .rulal-area-card {
+        padding: 0px 18px 0px 20px;
+    }
+
+    .rulal-area .viasat-1 p {
+        line-height: 20px;
+    }
+
+    .what-viasat-order a {
+        font-size: 12px;
+        padding: 7px 21px;
+    }
+
+    .rulal-area-card .what-viasat-order {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .banner-headings {
+        max-width: 506px;
+    }
+
+    .banner-headings h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .banner-headings h2 {
         font-size: 15px;
+    }
+
+    .banner-section .banner-background {
+        background-position: 39% 58%;
+    }
+
+    .top-bar span {
+        font-size: 17px;
+    }
+
+    .internet-plans-heading h2 {
+        font-size: 23px;
+    }
+
+    .all-internet-plans {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+
+    .all-streaming .streaming-1,
+    .viasat-data {
+        justify-content: space-between;
+    }
+
+    .plans-card-1 {
+        width: 52.2%;
+    }
+
+    .all-viasat-what {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .viasat-1 {
+        width: 80%;
+    }
+
+    .rulal-area .viasat-1 {
+        width: 100%;
+    }
+
+    .satellite-internet {
+        margin: 0 auto;
+    }
+
+    .rulal-area .rulal-area-card {
+        padding: 30px 0px 30px 0px;
+        margin: 0;
+    }
+
+    .home-install .all-viasat-what,
+    .rulal-area .all-viasat-what {
+        row-gap: 0;
+    }
+
+    .faqs-container {
+        width: 95%;
+    }
+
+    .what-viasat.rulal-area .rulal-area-card {
+        margin-top: -4px;
+    }
+
+    .rural-area-internet {
+        max-width: 521px;
+        margin: 0 auto;
+    }
+
+    .phone-cards {
+        max-width: unset;
+        width: 45%;
+        flex-direction: column;
+    }
+
+    .phone-card {
+        width: 100%;
+    }
+
+    .phone-card h4 {
+        text-align: left;
+        padding-bottom: 15px;
+    }
+
+    .phone-card h3 {
+        font-size: 27px;
+        padding-bottom: 22px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .banner-section .banner-background {
+        padding-left: 25px;
+        padding-right: 25px;
+        background-image: url(../images/viasait-homepage-banner-background-mobile.webp);
+        height: 830px;
+        background-position: unset;
+        align-items: start;
+        padding-top: 28px;
+    }
+
+    .banner-headings h1 {
+        font-size: 30px;
+    }
+
+    .banner-headings h2 {
+        font-size: 16px;
         line-height: 23px;
     }
 
-    .package-price-data h3 {
-        font-size: 50px;
+    .top-bar span {
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+        padding: 25px;
+        line-height: 37px;
     }
 
-    .windstream-card-plan3 .lines {
-        margin-top: 14px;
+    .top-bar span a {
+        margin-top: 37px;
     }
 
-    .windstream-card-plan3 .plans-pricing-paragraph p {
-        padding-top: 0;
+    .internet-plans-heading h2 {
+        font-size: 30px;
     }
 
-    .pricing-plans h3 {
-        font-size: 45px;
+    .internet-palns-section {
+        padding: 39px 25px;
     }
 
-    .windstream-card-plan3 .new-pricing-stars h3 span br {
-        display: none;
+    .plans-card-1 {
+        width: 100%;
+    }
+
+    .interbnwt-plans-small-paragraph p {
+        max-width: unset;
+        padding: 0 0px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .bottom-paragraph {
+        max-width: unset;
+    }
+
+    .bottom-paragraph p {
+        text-align: left;
+        padding: 0 20px;
+        line-height: 16px;
+    }
+
+    .viasat-1 {
+        width: 100%;
+    }
+
+    .what-viasat {
+        padding: 25px;
+    }
+
+    .viasat-1 h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .what-viasat.rulal-area {
+        padding: 28px 0px;
+    }
+
+    .rural-area-internet,
+    .satellite-internet {
+        max-width: unset;
+        padding: 0 25px;
+    }
+
+    .rulal-area-card h4 {
         font-size: 16px;
     }
 
-    .pricing-plans.new-pricing-stars {
-        padding: 10px 0px;
+    .viasat-1 p,
+    .viasat-1 ul li {
+        font-size: 14px;
     }
 
-    .single-ctaa-buttons span a {
-        font-size: 15px;
-    } */
-  .package-price-data p {
-    font-size: 15px;
-  }
+    .phone-cards {
+        width: 92%;
+    }
 
-  .package-price-data ul li {
-    font-size: 16px;
-  }
+    .phone-card h3 {
+        line-height: 35px;
+    }
 
-  .master-card-heading h4 {
-    font-size: 14px;
-    padding: 10px 45px;
-  }
-
-  .all-viasat-what {
-    max-width: 1024px;
-  }
-
-  .viasat-1 h2 {
-    font-size: 27px;
-  }
-
-  .call-to-save-banner .Kinetic-reward a {
-    margin-top: 10px;
-  }
-}
-
-@media screen and (max-width: 1281px) {
-  .package-price-data p {
-    font-size: 14px;
-  }
-
-  .single-ctaa-buttons span a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 1190px) {
-  .package-price-data p {
-    font-size: 13px;
-    line-height: 1.5;
-  }
-
-  .master-card-heading h4 {
-    font-size: 13px;
-  }
-
-  .windstream-plans-section {
-    padding: 38px 20px;
-  }
-
-  .package-price-data ul li {
-    font-size: 16px;
-    line-height: 19px;
-    padding-bottom: 8px;
-  }
-
-  .package-price-data ul li::before {
-    top: 0;
-  }
-
-  .pricing-plans h3 {
-    font-size: 42px;
-  }
-
-  .package-price-data h3 {
-    font-size: 42px;
-  }
-
-  .windstream-card-plan4 .package-price-data ul {
-    padding-bottom: 5px;
-  }
-
-  .windstrea-dsl .package-price-data ul {
-    padding-bottom: 26px;
-  }
-
-  .Kinetic-reward h5 {
-    font-size: 28px;
-    line-height: 32px;
-  }
-
-  .Kinetic-reward::before {
-    left: -17px;
-  }
-}
-
-@media screen and (max-width: 1112px) {
-  .all-windstream-plans-secion {
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 25px;
-    column-gap: 25px;
-  }
-
-  .windstream-card-plan1 {
-    width: 31%;
-  }
-
-  .reward-limited h3 {
-    font-size: 48px;
-    max-width: 238px;
-  }
-
-  .offer-price h4 {
-    font-size: 32px;
-    line-height: 48px;
-  }
-
-  .all-plans-section .plans-sections {
-    padding: 10px 18px 7px;
-  }
-
-  .all-viasat-what {
-    max-width: 900px;
-  }
-
-  .viasat-1 h2 {
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .viasat-1 p,
-  .viasat-1 ul li {
-    font-size: 13px;
-  }
-
-  .availability-heading h3 {
-    font-size: 25px;
-  }
-
-  .call-to-save-banner .Kinetic-reward p {
-    font-size: 18px;
-    line-height: 23px;
-  }
-
-  .call-to-save-banner .Kinetic-reward a {
-    margin-top: 12px;
-  }
-
-  .call-to-save-banner .offer-price h4 {
-    line-height: 50px;
-  }
-
-  .do-can-internet h2 {
-    font-size: 25px;
-    line-height: 27px;
-  }
-
-  .after-top-paragraph p {
-    font-size: 9px;
-  }
-
-  .all-windstream-plans-secion {
-    padding: 65px 0px 40px;
-  }
-
-  .banner-section .banner-background {
-    height: 565px;
-  }
-}
-
-@media screen and (max-width: 882px) {
-  .windstream-card-plan1 {
-    width: 48%;
-  }
-
-  .all-windstream-plans-secion {
-    row-gap: 45px;
-  }
-  .banner-section .banner-background {
-    background-image: url(../images/windstream-homepage-banner-mobile.webp);
-    height: 1329px;
-    display: block;
-    background-position: bottom;
-    padding-top: 38px;
-  }
-  .limited-time-offer {
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
-  .reward-limited {
-    width: 100%;
-  }
-  .mobile-rewared-card {
-    display: block;
-  }
-  .desktop-rewared-card {
-    display: none;
-  }
-  .reward-limited {
-    width: 49%;
-  }
-  .reward-limited h3 {
-    font-size: 68px;
-    max-width: unset;
-    line-height: 1.2;
-  }
-  .offer-price h4 span {
-    font-size: 100px;
-  }
-  .offer-price h4 {
-    font-size: 49px;
-    line-height: 1.1;
-  }
-  .Kinetic-reward h5 br {
-    display: none;
-  }
-  .Kinetic-reward h5 {
-    font-size: 43px;
-    line-height: 50px;
-  }
-  .Kinetic-reward {
-    width: 62%;
-  }
-  .Kinetic-reward::before {
-    height: 152px;
-  }
-  .all-plans-section .plans-sections {
-    padding: 24px 18px 18px;
-  }
-  .fiber-internet-heading h2 {
-    font-size: 30px;
-  }
-  .all-viasat-what {
-    flex-direction: column;
-    padding: 0 26px;
-    row-gap: 30px;
-  }
-  .viasat-1 {
-    width: 100%;
-  }
-  .viasat-1 h2 {
-    font-size: 30px;
-    line-height: 37px;
-  }
-  .viasat-1 h3 {
-    font-size: 12px;
-  }
-  .kinetic-secure .all-viasat-what,
-  .kinetic-wifi .all-viasat-what {
-    flex-direction: column-reverse;
-  }
-  .rest-card {
-    width: 46%;
-  }
-  .viasat-internet-rest {
-    justify-content: center;
-    row-gap: 38px;
-    column-gap: 38px;
-    padding-left: 26px;
-    padding-right: 26px;
-  }
-  .do-can-internet h2 {
-    font-size: 30px;
-    max-width: 546px;
-    margin: 0 auto;
-    line-height: 1.3;
-  }
-  .all-plans-section.call-to-save-banner {
-    display: none;
-  }
-  .accordion-content p {
-    line-height: 22px;
-  }
-}
-
-@media screen and (max-width: 738px) {
-  .banner-section .banner-background {
-    height: 876px;
-    padding-left: 25px;
-  }
-  .banner-headings h1 {
-    font-size: 30px;
-    line-height: 37px;
-  }
-  .banner-headings h2 {
-    font-size: 20px;
-  }
-  .save-hundred img {
-    transform: scale(0.7);
-  }
-  .save-hundred {
-    padding-bottom: 20px;
-  }
-  .limited-time-offer {
-    flex-wrap: nowrap;
-    flex-direction: column;
-  }
-  .reward-limited {
-    width: 100%;
-    text-align: center;
-  }
-  .reward-limited h3 {
-    font-size: 70px;
-    line-height: 1;
-  }
-  .offer-price {
-    width: 100%;
-  }
-  .offer-price h4 {
-    font-size: 40px;
-    position: relative;
-  }
-  .offer-price h4 span {
-    font-size: 110px;
-    text-align: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .Kinetic-reward h5 {
-    font-size: 40px;
-    line-height: 50px;
-    padding-left: 24px;
-    line-height: 45px;
-  }
-  .Kinetic-reward {
-    width: 100%;
-    margin-top: 80px;
-  }
-  .Kinetic-reward::before {
-    height: 180px;
-    left: 0;
-  }
-  .all-plans-section .plans-sections {
-    padding: 48px 18px 48px;
-  }
-  .windstream-card-plan1 {
-    width: 100%;
-  }
-  .windstream-card-plan1.windstream-card-plan2 {
-    order: 1;
-  }
-  .windstream-card-plan1.windstream-card-plan2 {
-    margin-top: -8px;
-  }
-  .all-windstream-plans-secion {
-    row-gap: 27px;
-  }
-  .what-viasat {
-    padding: 28px 0px;
-  }
-  .do-can-internet h2 {
-    font-size: 25px;
-    margin: 0 auto;
-    line-height: 1.3;
-    padding: 0 20px;
-  }
-  .rest-card {
-    width: 100%;
-    padding: 26px 0px;
-  }
-  .viasat-internet-rest {
-    row-gap: 26px;
-  }
-  .availability-map img {
-    width: 100%;
-  }
-  .availability-section {
-    padding: 32px 26px 33px 26px;
-  }
-  .do-can-internet p {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  .add-home-phone-heading {
-    flex-direction: column;
-  }
-  .add-more-image {
-    text-align: center;
-  }
-  .add-more-image img {
-    width: unset;
-  }
-  .add-home-phone-heading {
-    padding: 29px 24px;
-  }
-}
-@media screen and (max-width: 480px) {
-  button.accordion:after {
-    right: -18px;
-  }
-  button.accordion {
-    max-width: 280px;
-    line-height: 1.3;
-  }
-}
-@media screen and (max-width: 350px) {
-  .save-hundred {
-    flex-direction: column;
-  }
-  .banner-section .banner-background {
-    padding-left: 14px;
-  }
-  .banner-headings h1 {
-    font-size: 26px;
-    line-height: 37px;
-  }
-  .reward-limited h3 {
-    font-size: 54px;
-  }
-  .offer-price h4 span {
-    font-size: 84px;
-  }
-  .Kinetic-reward h5 {
-    font-size: 24px;
-    line-height: 27px;
-  }
-  .Kinetic-reward::before {
-    height: 84px;
-    left: 0;
-  }
+    .phone-card.phone-card-image {
+        padding: 10px 0px 20px;
+    }
 }
